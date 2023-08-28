@@ -1,13 +1,10 @@
 particlesJS("particles-js", {
   particles: {
-    number: {
-      value: 232,
-      density: { enable: true, value_area: 631.3181133058181 }
-    },
-    color: { value: "#3900f2" },
+    number: { value: 200, density: { enable: true, value_area: 800 } },
+    color: { value: "#040405" },
     shape: {
       type: "circle",
-      stroke: { width: 1, color: "#000000" },
+      stroke: { width: 4, color: "#000000" },
       polygon: { nb_sides: 5 },
       image: { src: "img/github.svg", width: 100, height: 100 }
     },
@@ -42,8 +39,8 @@ particlesJS("particles-js", {
   interactivity: {
     detect_on: "canvas",
     events: {
-      onhover: { enable: true, mode: "grab" },
-      onclick: { enable: true, mode: "repulse" },
+      onhover: { enable: true, mode: "repulse" },
+      onclick: { enable: true, mode: "push" },
       resize: true
     },
     modes: {
